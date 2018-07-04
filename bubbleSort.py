@@ -10,7 +10,8 @@ def bubbleSort(mylist):
                 mylist[element + 1] = temp
     return mylist
 
-#def bblsort():
+
+# def bblsort():
 if __name__ == "__main__":
     mylist = [5, 2, 7, 1, 9, 3, 6]
     sortdlist = bubbleSort(mylist)
